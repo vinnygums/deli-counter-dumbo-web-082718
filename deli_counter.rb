@@ -10,5 +10,5 @@ def line(array)
 end
 
 def take_a_number(current_line, person)
-  puts current_line << person
+  puts "Welcome, #{person}. You are number current_line[]
 end
