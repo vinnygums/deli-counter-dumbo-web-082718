@@ -6,6 +6,7 @@ def line(array)
     puts message += "#{place_in_line}"
   else
     puts "The line is currently empty."
+   end
   end
 end
 
