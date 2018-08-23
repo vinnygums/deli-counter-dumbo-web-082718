@@ -9,4 +9,6 @@ def line(array)
   end
 end
 
-def take_
+def take_a_number(current_line, person)
+  puts current_line << person
+end
