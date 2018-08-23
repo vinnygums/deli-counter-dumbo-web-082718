@@ -3,6 +3,7 @@ def line(array)
   if array.size == 0 
     puts "The line is currently empty."
   end
+  binding.pry
 end
 
 def take_a_number(current_line, person)
