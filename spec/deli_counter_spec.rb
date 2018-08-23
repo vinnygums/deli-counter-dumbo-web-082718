@@ -1,4 +1,5 @@
 describe 'Deli Counter' do
+require 'pry'
 
   let(:katz_deli) { [] }
   let(:other_deli) { ["Logan", "Avi", "Spencer"] }
