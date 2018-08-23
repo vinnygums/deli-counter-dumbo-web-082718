@@ -1,9 +1,13 @@
 # Write your code here.
 def line(array)
+  message = "The line is currently:"
   if array.size == 0 
     puts "The line is currently empty."
+  else
+    array.each_with_index do |person, place_in_line|
+      message = person
   end
-  binding.pry
+  
 end
 
 def take_a_number(current_line, person)
@@ -11,5 +15,4 @@ def take_a_number(current_line, person)
   current_line.each_with_index do |person, place_in_line|
   puts "Welcome, #{person}. You are number #{place_in_line + 1}"
  end
- message
 end
