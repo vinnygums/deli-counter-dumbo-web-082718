@@ -8,3 +8,5 @@ def line(array)
     end
   end
 end
+
+def take_
