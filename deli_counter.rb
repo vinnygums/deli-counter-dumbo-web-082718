@@ -1,8 +1,9 @@
 # Write your code here.
 def line(array)
   message = "The line is currently:"
+  array.each_with_index do |person, place_in_line|
   if array.size > 0
-    puts message
+    puts message += "#{place_in_line}"
   else
     puts "The line is currently empty."
   end
