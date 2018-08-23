@@ -6,6 +6,7 @@ def line(array)
   else
     array.each_with_index do |person, place_in_line|
       puts message << " #{place_in_line + 1}. #{person}"
+      
     end
   end
   
