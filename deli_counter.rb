@@ -1,13 +1,13 @@
 # Write your code here.
 katz_deli = []
 
-def line(array)
+def line(the_line)
   message = "The line is currently:"
-  if array.size == 0 
+  if the_line.size == 0 
     puts "The line is currently empty."
   else
-    array.each_with_index do |person, place_in_line|
-      puts message << " #{place_in_line + 1}. #{person}"
+    the_line.each_with_index do |person, place_in_line|
+      message << " #{place_in_line + 1}. #{person}"
       
     end
   end
