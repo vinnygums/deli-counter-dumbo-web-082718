@@ -6,6 +6,7 @@ def line(array)
   else
     array.each_with_index do |person, place_in_line|
       message = person
+    end
   end
   
 end
