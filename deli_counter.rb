@@ -5,6 +5,7 @@ def line(array)
     puts message
   else
     puts "The line is currently empty."
+  end
 end
 
 def take_a_number(current_line, person)
