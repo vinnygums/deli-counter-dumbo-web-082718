@@ -8,7 +8,6 @@ def line(the_line)
   else
     the_line.each_with_index do |person, place_in_line|
       message << " #{place_in_line + 1}. #{person}"
-      binding.pry
     end
   end
 end
