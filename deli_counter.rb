@@ -1,6 +1,10 @@
 # Write your code here.
 def line(array)
-  
+  message = "The line is currently:"
+  if array > 0
+    puts message
+  else
+    puts "The line is currently empty."
 end
 
 def take_a_number(current_line, person)
